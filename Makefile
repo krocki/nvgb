@@ -1,6 +1,5 @@
 GCC ?= gcc
-CUDA ?= /usr/local/cuda
-NVCC ?= ${CUDA}/bin/nvcc
+NVCC ?= /usr/bin/nvcc
 
 TARGETS := nv_gb
 NVCC_FLAGS := -O2 --disable-warnings -ccbin gcc
